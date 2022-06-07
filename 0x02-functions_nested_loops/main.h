@@ -1,4 +1,4 @@
-#include "holberton.h"                                                                                                          
+#include "main.h"                                                                                                          
 
 /**                                                                                                                                 
  *
@@ -12,7 +12,7 @@ int main(void)
 
 {                                                                                                                                   
 
-	        char c[] = "holberton.h";                                                                                                 
+	        char c[] = "main";                                                                                                 
 
 		        int i;                                                                                                                      
 
