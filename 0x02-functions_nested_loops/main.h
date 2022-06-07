@@ -1,8 +1,8 @@
-#include "setotamelekot.h"                                                                                                          
+#include "holberton.h"                                                                                                          
 
 /**                                                                                                                                 
  *
- *  * main - prints the string "Setotamelekot" from a character array.                                                                 
+ *  * main - prints the string "holberton" from a character array.                                                                 
  *
  *   * Return: 0 on success.                                                                                                            
  *
@@ -12,7 +12,7 @@ int main(void)
 
 {                                                                                                                                   
 
-	        char c[] = "Setotamelekot";                                                                                                 
+	        char c[] = "holberton.h";                                                                                                 
 
 		        int i;                                                                                                                      
 
