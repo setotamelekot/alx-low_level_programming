@@ -1,18 +1,10 @@
-#include "main.h"
+#include <unistd.h>
 /**
  * main - prints the string "Holberton" from a character array.
  * Return: 0 on success.
  */
-int main(void)
+int _putchar(char c)
 {
-	char c[] = "Main";
-	int i;
-
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(c[i]);
-	}
-	_putchar('\n');
-	return (0);
+      return (write(1, &c, 1));
 }
 
