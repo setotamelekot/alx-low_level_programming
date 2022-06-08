@@ -1,4 +1,4 @@
-#include "main.h";                                                                                                     
+#include "main.h"                                                                                                     
 
                                                                                                                        
 
@@ -10,7 +10,7 @@
  *
  *    */                                                                                                                    
 
-ing main (void)                                                                                                        
+int main (void)                                                                                                        
 
 {                                                                                                                      
 
@@ -30,7 +30,7 @@ ing main (void)
 
 								              _putchar('r');                                                                                                 
 
-									               _putchar('/n');                                                                                               
+									               _putchar('\n');                                                                                               
 
 										                                                                                                                              
 
