@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_alphabet -> prints the lowercase alphabets
+ * print_alphabet_x10 - repeats the print_alphabet 10 times.
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 { 
-	int j;
 	int x;
+	int j;
 
 	for (x = 0;  x < 10; x++)
 	{
