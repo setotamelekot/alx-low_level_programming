@@ -1,4 +1,5 @@
 #include "main.h"
+wq
 /**
  * main - prints putchar
  * Return: always 0 
