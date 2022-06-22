@@ -1,23 +1,24 @@
 #include "main.h"
 
 /**
- * _memcpy - ++
- * @dest: ++
- * @src: ++
- * @src: ++
- * @n: ++
- * Return: ++
+ * _memcpy - c++
+ * @dest: c++
+ * @src: c++
+ * @n: c++
+ *
+ * Return: c++
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int a;
-	a = 0;
+	unsigned int i;
 
-	while (a < n)
+	i = 0;
+
+	while (i < n)
 	{
-		dest[a] = src[a];
-		a++;
+		dest[i] = src[i];
+		i++;
 	}
 	return (dest);
 }
