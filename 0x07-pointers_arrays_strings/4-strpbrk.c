@@ -1,32 +1,24 @@
 #include "main.h"
+#include <srdlib.h>
 
- /**
-  * _strpbrk - ++
-  * @s: ++
-  *  @accept: ++
-  *  Return: ++
-  */
+/**
+ * _strpbrk - sting
+ * @s: string
+ * @accept: string
+ *
+ * Return: NULL
+ */
+
 char *_strpbrk(char *s, char *accept)
 {
-	int a = 0, b;
+	int i = 0;
+	int j = 0;
 
-	while (s[a])
+	for (i = 0; s[i]; i++)
 	{
-		b = 0;
-
-		while (accept[b])
-		{
-			if (s[a] == accept[b])
-			{
-				s += a;
-				return (s);
-			}
-
-			b++;
-		}
-
-		a++;
+		for (j = 0; accept[j]; j++)
+			if (*(accept + j) == s[i])
+				return (&(s[i]));
 	}
-
-	return ('\0');
+	return (NULL);
 }
