@@ -1,24 +1,33 @@
 #include "main.h"
-#include <srdlib.h>
 
 /**
- * _strpbrk - sting
- * @s: string
- * @accept: string
+ * _strpbrk - search a string for any of a set of bytes
+ * @s: source string
+ * @accept: accepted characters
  *
- * Return: NULL
+ * Return: the string since the first found accepted character
  */
-
 char *_strpbrk(char *s, char *accept)
 {
-	int i = 0;
-	int j = 0;
+	int a = 0, b;
 
-	for (i = 0; s[i]; i++)
+	while (s[a])
 	{
-		for (j = 0; accept[j]; j++)
-			if (*(accept + j) == s[i])
-				return (&(s[i]));
+		b = 0;
+
+		while (accept[b])
+		{
+			if (s[a] == accept[b])
+			{
+				s += a;
+				return (s);
+			}
+
+			b++;
+		}
+
+		a++;
 	}
-	return (NULL);
+
+	return ('\0');
 }
