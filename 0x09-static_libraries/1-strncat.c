@@ -1,3 +1,3 @@
 #include "main.h"
-int _isdigit(int c)
+char *_strncat(char *dest, char *src, int n)
 {}
