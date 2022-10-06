@@ -1,3 +1,3 @@
 #include "main.h"
-int _strlen(char *s)
+char *_strncat(char *dest, char *src, int n)
 {}
