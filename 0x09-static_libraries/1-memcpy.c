@@ -1,3 +1,3 @@
 #include "main.h"
-int _isdigit(int c)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {}
