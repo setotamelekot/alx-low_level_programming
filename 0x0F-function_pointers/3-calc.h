@@ -1,4 +1,4 @@
-#ifndef CALC_H
+et ff=unixifndef CALC_H
 #define CALC_H
 /**
  * struct op - A struct op.
